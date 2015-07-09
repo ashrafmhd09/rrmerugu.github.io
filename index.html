@@ -10,7 +10,9 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 
+    <link rel="stylesheet" href="assets/css/time.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,12 +29,17 @@
         }
 
         .raviname {
-            margin-top: 30px;
+            margin-top: 70px;
+            margin-bottom: 20px;;
         }
 
         .ravipic {
             margin: 70px auto 0 auto;
             width: 150px;
+        }
+
+        .raviexp {
+            font-size: 16px;
         }
 
 
@@ -41,17 +48,41 @@
 <body>
 <div class="container text-center">
 
-    <img class="ravipic img-circle" title="Ravi RT Merugu"
-         src="https://scontent-sin1-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/10420395_396206060582824_1629667105597148884_n.jpg?oh=41d208b0f4d6346afa533bf4e2c52471&oe=56595DB9">
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1">
+            <img class="ravipic img-circle" title="Ravi RT Merugu"
+                 src="https://scontent-sin1-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/10420395_396206060582824_1629667105597148884_n.jpg?oh=41d208b0f4d6346afa533bf4e2c52471&oe=56595DB9">
 
-    <h1 class="raviname">Hello world! I'm Ravi RT Merugu</h1>
 
-    <h5>Computational Biologist, Web Developer & Entrepreneur</h5>
-    <br>
-    <a href="http://rrmerugu.com" class="btn btn-default">my website</a>
- 
-    <hr>
-    <p>#AngularJS, #Python, #MongoDB, #HTML5, CSS3,</p>
+        </div>
+
+        <div class="col-md-6 text-right">
+
+
+            <h1 class="raviname">Hello world! I'm Ravi RT Merugu</h1>
+
+
+            <h4 class="raviexp">Computational Biologist, Web Developer & Entrepreneur</h4>
+            <hr>
+            <p>#BigData, #DataScience, #ArtificialIntelligence, #MolecularModelling</p>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-3">
+
+            <div class="timing">
+                <div id="count-down" data-date="2015-7-15 00:00:00">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--<br>-->
+    <!--<a href="http://rrmerugu.com" class="btn btn-default">my website</a>-->
+
 
 </div>
 
@@ -61,5 +92,33 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="http://codepassenger.com/assets/js/TimeCircles.js"></script>
+
+
+<script type="text/javascript">
+    $(function () {
+        // Invoke the plugin
+        $('input, textarea').placeholder();
+    });
+</script>
+<script>
+    $("#count-down").TimeCircles(
+            {
+                circle_bg_color: "#fff",
+                use_background: false,
+                bg_width: 0,
+                fg_width: 0.00,
+                time: {
+                    Days: {color: "#fefeee"},
+                    Hours: {color: "#fefeee"},
+                    Minutes: {color: "#fefeee"},
+                    Seconds: {color: "#fefeee"}
+                }
+            }
+    );
+
+</script>
+
+
 </body>
 </html>
