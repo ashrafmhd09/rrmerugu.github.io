@@ -4,8 +4,13 @@ layout: homepage
 
 <header class="homepage-header">
   <h1 class="page-title" itemprop="name headline">{{ site.title }}</h1>
-  <p class="post-meta">It's all about Coffee, Coke & Code </p>
-  <p class="post-meta"><i class="ion-social-twitter"></i> <a href="https://twitter.com/{{site.twitter_username}}">{{site.twitter_username}} </a>, <i class="ion-social-github"></i> <a href="https://github.com/{{site.github_username}}">{{site.github_username}} </a></p>
+  <p class="post-meta fs-16">My thoughts about Code, Software Developement & Computational Biology </p>
+  <p class="post-meta social-links">
+    <a href="https://twitter.com/{{site.twitter_username}}"><i class="ion-social-twitter"></i></a>
+    <a href="https://github.com/{{site.github_username}}"><i class="ion-social-github"></i></a>
+    <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="ion-social-rss"></i></a>
+
+  </p>
 
 </header>
 

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,100,400italic,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,300);
 /**
  * Reset some basic elements
  */
@@ -166,6 +166,13 @@ pre {
 a {
   text-decoration: none; }
 
+.fs-16 {
+  font-size: 16px !important; }
+
+.social-links a {
+  font-size: 30px;
+  margin-left: 25px; }
+
 .site-title {
   font-size: 26px;
   font-weight: 300;
@@ -194,6 +201,9 @@ a {
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
+  .site-nav .page-link-btn {
+    border: 1px solid;
+    padding: 5px 10px; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
@@ -327,7 +337,7 @@ a {
     color: white; }
 
 .page-header, .homepage-header {
-  background: url("../images/rrmerugu-hero.jpg") no-repeat center center fixed;
+  background: url("../images/rrmerugu-hero.jpg") no-repeat center center;
   background-size: cover;
   text-align: right;
   padding-right: 10%; }
