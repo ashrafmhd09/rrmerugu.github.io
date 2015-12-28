@@ -5,11 +5,12 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background-color: $brand-color;
+    // background-color: $brand-color;
     border: none;
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: absolute;
     color: white;
+    width: 100%;
 }
 
 a {
@@ -29,6 +30,7 @@ a {
     margin-left: 20px;
   border-bottom-width: 5px;
 
+
     &,
     &:visited {
         // color: $grey-color-dark;
@@ -40,6 +42,8 @@ a {
 .site-nav {
     float: right;
     line-height: 56px;
+    position: absolute;
+    right: 20px;
 
     .menu-icon {
         display: none;
@@ -58,10 +62,10 @@ a {
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
+        right: 10px ;//$spacing-unit / 2;
+        // background-color: $background-color;
         border: 1px solid $grey-color-light;
-        border-radius: 5px;
+        border-radius: 2px;
         text-align: right;
 
         .menu-icon {
@@ -78,7 +82,7 @@ a {
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $grey-color-light;
                 }
             }
         }
@@ -216,34 +220,62 @@ a {
 // article{
 //   height: 100%;
 // }
-.post-header, .page-header {
+.post-header, .page-header, .homepage-header {
     margin-bottom: $spacing-unit;
-    min-height: 80%;
+
     text-align: center;
     // padding-top: 50%;
+      color: white;
+      a, i, p{
+        color: white;
+      }
+      a {
+        text-decoration: underline;
+      }
   .post-title{
-      padding-top: 32%;
+      padding-top: 30%;
       color: white;
   }
   .page-title{
-  padding-top: 25%;
+  padding-top: 18%;
   color: white;
+  @include media-query($on-palm) {
+      padding-top: 60%;
+    }
   }
   .tags {
     color: white;
   }
 }
 
-.page-header {
-  height: 70%;
+.page-header, .homepage-header {
+
   // background-image: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(43,43,43,0) 51%,rgba(45,45,45,0) 53%,rgba(84,84,84,0.65) 100%),url('http://anthonysdesk.com/wp-content/uploads/2014/03/mac-keyboard-coffee.png');border:none;  background-size: cover;background-repeat: no-repeat; background-position: 50%;
-  background-color: $brand-color;
+  // background-color: $brand-color;
+  background: url('../images/rrmerugu-hero.jpg') no-repeat center center fixed;
+  background-size:cover;
+  text-align: right;
+  padding-right:10%;
+}
+.homepage-header{
+  min-height: 80%;
+
+}
+.page-header{
+  height: 20%;
+}
+.post-header{
+    min-height: 80%;
 }
 
 
 
 .post-header p.post-meta ,.page-header p.post-meta{
   color:white;
+  a{
+    color: white;
+    text-decoration: underline;
+  }
 }
 .post-title, .page-title {
     font-size: 42px;

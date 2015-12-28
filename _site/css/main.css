@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,400,300,400italic,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,100,400italic,600);
 /**
  * Reset some basic elements
  */
@@ -158,10 +158,10 @@ pre {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  background-color: #296E9E;
   border: none;
-  position: relative;
-  color: white; }
+  position: absolute;
+  color: white;
+  width: 100%; }
 
 a {
   text-decoration: none; }
@@ -184,7 +184,9 @@ a {
 
 .site-nav {
   float: right;
-  line-height: 56px; }
+  line-height: 56px;
+  position: absolute;
+  right: 20px; }
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
@@ -196,10 +198,9 @@ a {
     .site-nav {
       position: absolute;
       top: 9px;
-      right: 15px;
-      background-color: #fdfdfd;
+      right: 10px;
       border: 1px solid #e8e8e8;
-      border-radius: 5px;
+      border-radius: 2px;
       text-align: right; }
       .site-nav .menu-icon {
         display: block;
@@ -213,7 +214,7 @@ a {
           width: 18px;
           height: 15px; }
           .site-nav .menu-icon > svg path {
-            fill: #424242; }
+            fill: #e8e8e8; }
       .site-nav .trigger {
         clear: both;
         display: none; }
@@ -305,25 +306,46 @@ a {
 /**
  * Posts
  */
-.post-header, .page-header {
+.post-header, .page-header, .homepage-header {
   margin-bottom: 30px;
-  min-height: 80%;
-  text-align: center; }
-  .post-header .post-title, .page-header .post-title {
-    padding-top: 32%;
+  text-align: center;
+  color: white; }
+  .post-header a, .post-header i, .post-header p, .page-header a, .page-header i, .page-header p, .homepage-header a, .homepage-header i, .homepage-header p {
     color: white; }
-  .post-header .page-title, .page-header .page-title {
-    padding-top: 25%;
+  .post-header a, .page-header a, .homepage-header a {
+    text-decoration: underline; }
+  .post-header .post-title, .page-header .post-title, .homepage-header .post-title {
+    padding-top: 30%;
     color: white; }
-  .post-header .tags, .page-header .tags {
+  .post-header .page-title, .page-header .page-title, .homepage-header .page-title {
+    padding-top: 18%;
+    color: white; }
+    @media screen and (max-width: 600px) {
+      .post-header .page-title, .page-header .page-title, .homepage-header .page-title {
+        padding-top: 60%; } }
+  .post-header .tags, .page-header .tags, .homepage-header .tags {
     color: white; }
 
+.page-header, .homepage-header {
+  background: url("../images/rrmerugu-hero.jpg") no-repeat center center fixed;
+  background-size: cover;
+  text-align: right;
+  padding-right: 10%; }
+
+.homepage-header {
+  min-height: 80%; }
+
 .page-header {
-  height: 70%;
-  background-color: #296E9E; }
+  height: 20%; }
+
+.post-header {
+  min-height: 80%; }
 
 .post-header p.post-meta, .page-header p.post-meta {
   color: white; }
+  .post-header p.post-meta a, .page-header p.post-meta a {
+    color: white;
+    text-decoration: underline; }
 
 .post-title, .page-title {
   font-size: 42px;

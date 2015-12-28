@@ -2,9 +2,11 @@
 layout: homepage
 ---
 
-<header class="page-header">
+<header class="homepage-header">
   <h1 class="page-title" itemprop="name headline">{{ site.title }}</h1>
   <p class="post-meta">It's all about Coffee, Coke & Code </p>
+  <p class="post-meta"><i class="ion-social-twitter"></i> <a href="https://twitter.com/{{site.twitter_username}}">{{site.twitter_username}} </a>, <i class="ion-social-github"></i> <a href="https://github.com/{{site.github_username}}">{{site.github_username}} </a></p>
+
 </header>
 
 
@@ -24,7 +26,7 @@ layout: homepage
             <a class="post-link" href="{{ post.url |  prepend: site.baseurl }}">{{ post.title }}</a>
 
           </h2>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} |  {{ post.categories | join: ', ' }}</span>
+          <span class="post-meta"><i class="ion-ios-calendar-outline"></i> {{ post.date | date: "%b %-d, %Y" }} |  <i class="ion-pound"></i> {{ post.categories | join: ', ' }}</span>
           <p>{{post.excerpt}}</p>
         </li>
         {% endfor %}
