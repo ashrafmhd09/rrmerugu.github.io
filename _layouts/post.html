@@ -18,9 +18,9 @@
         on
         {% for category in page.categories %}
             {% if forloop.index == page.categories.size %}
-               <a class="tags" href='{{ site.baseurl }}category/{{ category }}'>{{ category | capitalize }}</a>
+                {{ category | capitalize }}
             {% else %}
-               <a class="tags" href='{{ site.baseurl }}category/{{ category }}'>{{ category | capitalize }}</a>,
+                {{ category | capitalize }},
             {% endif %}
         {% endfor %}
         {% endif %}
@@ -37,6 +37,7 @@
       </div>
 
     </article>
+
 
 
     {% include footer.html %}

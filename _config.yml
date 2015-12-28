@@ -15,13 +15,13 @@ url: "http://rrmerugu.github.io" # the base hostname & protocol for your site
 
 
 disclaimer: The content on this site represents my own personal opinions and thoughts at the time of posting.
- 
+
 twitter_username: rrmerugu
 github_username:  rrmerugu
 
 
 # permalink: /:title.html #/:year/:month/title
-permalink: /:year/:month/:title.html
+# permalink: /:year/:month/:title.html
 
 # Build settings
 markdown: kramdown
