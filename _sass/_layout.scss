@@ -23,7 +23,11 @@ a {
     margin-bottom: 0;
     float: left;
     color:white;
-
+    border: 1px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+  border-bottom-width: 5px;
 
     &,
     &:visited {
@@ -214,7 +218,7 @@ a {
 // }
 .post-header, .page-header {
     margin-bottom: $spacing-unit;
-    height: 80%;
+    min-height: 80%;
     text-align: center;
     // padding-top: 50%;
   .post-title{
@@ -225,7 +229,9 @@ a {
   padding-top: 25%;
   color: white;
   }
-
+  .tags {
+    color: white;
+  }
 }
 
 .page-header {

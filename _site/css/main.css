@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,400,300,400italic,600);
 /**
  * Reset some basic elements
  */
@@ -173,7 +173,12 @@ a {
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-  color: white; }
+  color: white;
+  border: 1px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  border-bottom-width: 5px; }
   .site-title, .site-title:visited {
     color: white; }
 
@@ -302,13 +307,15 @@ a {
  */
 .post-header, .page-header {
   margin-bottom: 30px;
-  height: 80%;
+  min-height: 80%;
   text-align: center; }
   .post-header .post-title, .page-header .post-title {
     padding-top: 32%;
     color: white; }
   .post-header .page-title, .page-header .page-title {
     padding-top: 25%;
+    color: white; }
+  .post-header .tags, .page-header .tags {
     color: white; }
 
 .page-header {

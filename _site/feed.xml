@@ -5,8 +5,8 @@
     <description></description>
     <link>http://rrmerugu.github.io/</link>
     <atom:link href="http://rrmerugu.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Dec 2015 04:03:41 +0530</pubDate>
-    <lastBuildDate>Mon, 28 Dec 2015 04:03:41 +0530</lastBuildDate>
+    <pubDate>Mon, 28 Dec 2015 11:56:23 +0530</pubDate>
+    <lastBuildDate>Mon, 28 Dec 2015 11:56:23 +0530</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -16,6 +16,10 @@
         <pubDate>Sun, 27 Dec 2015 22:54:36 +0530</pubDate>
         <link>http://rrmerugu.github.io/2015/12/welcome-to-my-first-jekyll-blog.html</link>
         <guid isPermaLink="true">http://rrmerugu.github.io/2015/12/welcome-to-my-first-jekyll-blog.html</guid>
+        
+        <category>ravi</category>
+        
+        <category>raja</category>
         
         
         <category>Welcome</category>
