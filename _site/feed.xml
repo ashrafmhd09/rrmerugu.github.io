@@ -5,14 +5,24 @@
     <description></description>
     <link>http://rrmerugu.github.io/</link>
     <atom:link href="http://rrmerugu.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Dec 2015 14:13:54 +0530</pubDate>
-    <lastBuildDate>Mon, 28 Dec 2015 14:13:54 +0530</lastBuildDate>
+    <pubDate>Mon, 28 Dec 2015 14:30:04 +0530</pubDate>
+    <lastBuildDate>Mon, 28 Dec 2015 14:30:04 +0530</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Welcome to my First Jekyll Blog!</title>
-        <description>&lt;p&gt;Blogging isn’t my thing, and I never imagined setting up a blog using Jekyll.
-Recently starting the new blog with Jekyll and loving it .&lt;/p&gt;
+        <description>&lt;p&gt;Blogging isn’t my thing, and I never imagined setting up a blog using Jekyll. Recently starting the new blog with Jekyll and loving it .&lt;/p&gt;
+
+&lt;p&gt;I could be able to setup this blog in 4 hours :D Just amazing. I wasted an hour  in these 4 hrs just because I didn’t realize that changes in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; will be not reload automatically like the way it happens for &lt;code class=&quot;highlighter-rouge&quot;&gt;scss, css, html, md&lt;/code&gt; files. My bad I’m expecting the changed to reflect without restarting the Jekyll server. But anyways here we go, finally I’m able create a Jekyll blog starting from creating &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new myblog&lt;/code&gt; to customising(the current state of my blog ) in just 4 hours. How cool is that :D.&lt;/p&gt;
+
+&lt;p&gt;The best things about Jekyll:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Loads really fast&lt;/strong&gt; - no server side rendering anyways&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;secure&lt;/strong&gt; - no server side calculations or executions&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;no database&lt;/strong&gt; - no mysql, username, password, administrations etc&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;markdown&lt;/strong&gt; - much better way of writing&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Sun, 27 Dec 2015 22:54:36 +0530</pubDate>
         <link>http://rrmerugu.github.io/2015/12/welcome-to-my-first-jekyll-blog.html</link>
