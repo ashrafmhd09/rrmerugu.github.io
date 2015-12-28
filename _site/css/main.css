@@ -73,10 +73,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #296E9E;
+  color: #5C5C96;
   text-decoration: none; }
   a:visited {
-    color: #194461; }
+    color: #3f3f67; }
   a:hover {
     color: #555;
     text-decoration: underline; }
@@ -352,6 +352,12 @@ a {
 
 .homepage-header {
   min-height: 80%; }
+  .homepage-header i.ion-social-twitter {
+    color: #54ACEE; }
+  .homepage-header i.ion-social-github {
+    color: #eee; }
+  .homepage-header i.ion-social-rss {
+    color: #f88624; }
 
 .page-header {
   height: 20%; }
@@ -370,7 +376,7 @@ a {
   font-weight: 300;
   letter-spacing: -1px;
   line-height: 1;
-  color: #296E9E; }
+  color: #5C5C96; }
   @media screen and (max-width: 800px) {
     .post-title, .page-title {
       font-size: 36px; } }
