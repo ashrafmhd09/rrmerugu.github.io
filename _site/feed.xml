@@ -5,9 +5,58 @@
     <description></description>
     <link>http://rrmerugu.github.io/</link>
     <atom:link href="http://rrmerugu.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Dec 2015 19:13:10 +0530</pubDate>
-    <lastBuildDate>Mon, 28 Dec 2015 19:13:10 +0530</lastBuildDate>
+    <pubDate>Sun, 03 Jan 2016 13:35:57 +0530</pubDate>
+    <lastBuildDate>Sun, 03 Jan 2016 13:35:57 +0530</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Eight factors of great startups</title>
+        <description>&lt;p&gt;These are the eight factors I think I should keep in mind to build my startup.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Funding Ecosystem &amp;amp; Exits&lt;/li&gt;
+  &lt;li&gt;Engineering Talent&lt;/li&gt;
+  &lt;li&gt;Active Mentoring&lt;/li&gt;
+  &lt;li&gt;Technical Infrastructure&lt;/li&gt;
+  &lt;li&gt;Startup Culture&lt;/li&gt;
+  &lt;li&gt;Legal &amp;amp; Policy Infrastructure&lt;/li&gt;
+  &lt;li&gt;Economic Foundation&lt;/li&gt;
+  &lt;li&gt;Government Policies &amp;amp; Programs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Reference &lt;a href=&quot;https://medium.com/@bernardmoon/the-10-hottest-startup-ecosystems-in-the-world-974d0052e244#.t4ux5ms92&quot;&gt;Medium&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 02 Jan 2016 00:00:00 +0530</pubDate>
+        <link>http://rrmerugu.github.io/startup/2016/01/02/eight-factors-of-great-startup.html</link>
+        <guid isPermaLink="true">http://rrmerugu.github.io/startup/2016/01/02/eight-factors-of-great-startup.html</guid>
+        
+        
+        <category>startup</category>
+        
+      </item>
+    
+      <item>
+        <title>Learnings from 2015</title>
+        <description>&lt;p&gt;These are more of learnings from different experiences  rather than mistakes in 2015. I’m sure I can do much better than what I’ve done in this year.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Better decision making.&lt;/li&gt;
+  &lt;li&gt;Be serious about &lt;strong&gt;The Time&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Have a motive&lt;/strong&gt; for every move.&lt;/li&gt;
+  &lt;li&gt;Make better and more &lt;strong&gt;realistic Business Plan&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Socialize&lt;/strong&gt; with people.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 28 Dec 2015 00:00:00 +0530</pubDate>
+        <link>http://rrmerugu.github.io/learnings/personal/2015/12/28/learnings-from-2015.html</link>
+        <guid isPermaLink="true">http://rrmerugu.github.io/learnings/personal/2015/12/28/learnings-from-2015.html</guid>
+        
+        
+        <category>learnings</category>
+        
+        <category>personal</category>
+        
+      </item>
     
       <item>
         <title>Welcome to my First Jekyll Blog!</title>
