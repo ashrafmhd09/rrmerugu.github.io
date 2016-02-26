@@ -11,7 +11,6 @@ Thinking of doing something else other than coding, I ended up understanding the
 2. [http://builtwith.com/](http://builtwith.com/)
 
 
-
 ## 1. Instagram
 
 Lets start with Instagram, it is built using Django, its stack is discussed here [http://stackshare.io/instagram/instagram](http://stackshare.io/instagram/instagram)

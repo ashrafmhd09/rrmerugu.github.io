@@ -15,4 +15,4 @@ The best things about Jekyll:
   - **Loads really fast** - no server side rendering anyways
   - **secure** - no server side calculations or executions
   - **no database** - no mysql, username, password, administrations etc   
-  - **markdown** - much better way of writing 
+  - **markdown** - much better way of writing
